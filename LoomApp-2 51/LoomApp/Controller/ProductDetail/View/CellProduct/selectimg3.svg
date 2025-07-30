@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 492.31 492.31">
+  <g transform="rotate(-90 246.15 246.15)">
+    <!-- Top Right Block -->
+    <path fill="black" d="M260.92,0v231.38h231.38V0H260.92zM472.61,211.69h-192v-192h192V211.69z"></path>
+    
+    <!-- Left Full Column -->
+    <path fill="black" d="M0,0v492.31h231.38V0H0zM211.69,472.61h-192V19.69h192V472.61z"></path>
+    
+    <!-- Bottom Right Block -->
+    <path fill="black" d="M260.92,260.92v231.38h231.38V260.92H260.92zM472.61,472.61h-192v-192h192V472.61z"></path>
+  </g>
+</svg>

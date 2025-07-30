@@ -1,0 +1,1200 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174FE7278A64B5CC14646BA1 /* Pods_LoomApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FE812FB924E226EAE7096D /* Pods_LoomApp.framework */; };
+		6BD176D82DB21F5B00BAC1BD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD176D72DB21F5B00BAC1BD /* WebKit.framework */; };
+		75E4FB4A3D6B761F8258094A /* Pods_LoomApp_LoomAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E63FBE6B43E82DDDD04ECDA /* Pods_LoomApp_LoomAppUITests.framework */; };
+		E2B9DD7A2EC7DAE967705A84 /* Pods_LoomAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314F1BAA9BFE7D815402BF6E /* Pods_LoomAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8449CF1D2D9D45A90052AA2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8449CEFE2D9D45A70052AA2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8449CF052D9D45A70052AA2F;
+			remoteInfo = LoomApp;
+		};
+		8449CF272D9D45A90052AA2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8449CEFE2D9D45A70052AA2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8449CF052D9D45A70052AA2F;
+			remoteInfo = LoomApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		314F1BAA9BFE7D815402BF6E /* Pods_LoomAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoomAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA57CCC43A4E9430F463FF9 /* Pods-LoomApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoomApp.debug.xcconfig"; path = "Target Support Files/Pods-LoomApp/Pods-LoomApp.debug.xcconfig"; sourceTree = "<group>"; };
+		52FE812FB924E226EAE7096D /* Pods_LoomApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoomApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B0176ED2DF9A2FE0072F8BA /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B09E8BA2E321DFA005655B9 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B0A8FBC2E07ED010015F63E /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B32FC3C2E376B7100C4623F /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B4B7F802DDA512E00D61C59 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B4F111F2DF0178600551886 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B4FDED02DE6F675006A0B4A /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B65D8FD2E0A829F00FF1179 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B65E5962E0BC71F00FF1179 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B69BBBD2DEEFE6300A9B459 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B7955202DFAFC14007E8C46 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B7FBEE22E2E4F530092A524 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B86E3CC2E02F6CB00BFD866 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B8963352E059A43004D6A6E /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B93C9102DE22B0B007CC3A5 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B948E082DFCA93800A2EB71 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6B9F59E22E1153B800604F7F /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6BAB92252DE24A44006289FB /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6BB30A702DE2563E00FFE14C /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6BB5F4DA2DDA53E100A60CF1 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6BBCA91F2E33BDA500751F7F /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6BD176D72DB21F5B00BAC1BD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		6BDBF86A2E0BD69600016DB1 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6BDC0FA22DE5EA9F0066F4A2 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6BDF64CA2E004ADB0061C789 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6BE6AF7D2DDB75DA00373085 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6BF53E802DFAC3BC00C1639A /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6BFC8B632E0202F1006A0556 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		6BFC9B1C2DFFEBA600416B53 /* LoomApp.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = LoomApp.xcodeproj; sourceTree = "<group>"; };
+		8449CF062D9D45A70052AA2F /* LoomApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoomApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8449CF1C2D9D45A90052AA2F /* LoomAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoomAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8449CF262D9D45A90052AA2F /* LoomAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoomAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86466D49988C766AD4F5CA8C /* Pods-LoomAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoomAppTests.release.xcconfig"; path = "Target Support Files/Pods-LoomAppTests/Pods-LoomAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E63FBE6B43E82DDDD04ECDA /* Pods_LoomApp_LoomAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoomApp_LoomAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98AE900B226DF98E7CFE34F5 /* Pods-LoomApp-LoomAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoomApp-LoomAppUITests.release.xcconfig"; path = "Target Support Files/Pods-LoomApp-LoomAppUITests/Pods-LoomApp-LoomAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F171F86222439745059B9121 /* Pods-LoomAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoomAppTests.debug.xcconfig"; path = "Target Support Files/Pods-LoomAppTests/Pods-LoomAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F50CE65D77951A5152C4623A /* Pods-LoomApp-LoomAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoomApp-LoomAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoomApp-LoomAppUITests/Pods-LoomApp-LoomAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD1676A89225B9CCC82373F7 /* Pods-LoomApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoomApp.release.xcconfig"; path = "Target Support Files/Pods-LoomApp/Pods-LoomApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6B93BF7C2DC4088600F2A598 /* Exceptions for "LoomApp" folder in "LoomAppUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Utility/Resources/Font/Hero New Bold Italic.otf",
+				"Utility/Resources/Font/Hero New Bold.otf",
+				"Utility/Resources/Font/Hero New ExtraBold Italic.otf",
+				"Utility/Resources/Font/Hero New ExtraBold.otf",
+				"Utility/Resources/Font/Hero New Hairline Italic.otf",
+				"Utility/Resources/Font/Hero New Hairline.otf",
+				"Utility/Resources/Font/Hero New Light Italic.otf",
+				"Utility/Resources/Font/Hero New Light.otf",
+				"Utility/Resources/Font/Hero New Medium Italic.otf",
+				"Utility/Resources/Font/Hero New Medium.otf",
+				"Utility/Resources/Font/Hero New Regular Italic.otf",
+				"Utility/Resources/Font/Hero New Regular.otf",
+				"Utility/Resources/Font/Hero New SemiBold Italic.otf",
+				"Utility/Resources/Font/Hero New SemiBold.otf",
+				"Utility/Resources/Font/Hero New Super Italic.otf",
+				"Utility/Resources/Font/Hero New Super.otf",
+				"Utility/Resources/Font/Hero New Thin Italic.otf",
+				"Utility/Resources/Font/Hero New Thin.otf",
+				"Utility/Resources/Font/Hero New UltraLight Italic.otf",
+				"Utility/Resources/Font/Hero New UltraLight.otf",
+			);
+			target = 8449CF252D9D45A90052AA2F /* LoomAppUITests */;
+		};
+		6BDD06782DA3B28D00ADFC09 /* Exceptions for "LoomApp" folder in "LoomAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Utility/Resources/Font/Hero New Bold Italic.otf",
+				"Utility/Resources/Font/Hero New Bold.otf",
+				"Utility/Resources/Font/Hero New ExtraBold Italic.otf",
+				"Utility/Resources/Font/Hero New ExtraBold.otf",
+				"Utility/Resources/Font/Hero New Hairline Italic.otf",
+				"Utility/Resources/Font/Hero New Hairline.otf",
+				"Utility/Resources/Font/Hero New Light Italic.otf",
+				"Utility/Resources/Font/Hero New Light.otf",
+				"Utility/Resources/Font/Hero New Medium Italic.otf",
+				"Utility/Resources/Font/Hero New Medium.otf",
+				"Utility/Resources/Font/Hero New Regular Italic.otf",
+				"Utility/Resources/Font/Hero New Regular.otf",
+				"Utility/Resources/Font/Hero New SemiBold Italic.otf",
+				"Utility/Resources/Font/Hero New SemiBold.otf",
+				"Utility/Resources/Font/Hero New Super Italic.otf",
+				"Utility/Resources/Font/Hero New Super.otf",
+				"Utility/Resources/Font/Hero New Thin Italic.otf",
+				"Utility/Resources/Font/Hero New Thin.otf",
+				"Utility/Resources/Font/Hero New UltraLight Italic.otf",
+				"Utility/Resources/Font/Hero New UltraLight.otf",
+			);
+			target = 8449CF1B2D9D45A90052AA2F /* LoomAppTests */;
+		};
+		8449CF2E2D9D45A90052AA2F /* Exceptions for "LoomApp" folder in "LoomApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8449CF052D9D45A70052AA2F /* LoomApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		6B93BF912DC4093700F2A598 /* Exceptions for "LoomApp" folder in "Compile Sources" phase from "LoomApp" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 8449CF022D9D45A70052AA2F /* Sources */;
+			membershipExceptions = (
+				"Utility/Resources/Font/Hero New Bold Italic.otf",
+				"Utility/Resources/Font/Hero New Bold.otf",
+				"Utility/Resources/Font/Hero New ExtraBold Italic.otf",
+				"Utility/Resources/Font/Hero New ExtraBold.otf",
+				"Utility/Resources/Font/Hero New Hairline Italic.otf",
+				"Utility/Resources/Font/Hero New Hairline.otf",
+				"Utility/Resources/Font/Hero New Light Italic.otf",
+				"Utility/Resources/Font/Hero New Light.otf",
+				"Utility/Resources/Font/Hero New Medium Italic.otf",
+				"Utility/Resources/Font/Hero New Medium.otf",
+				"Utility/Resources/Font/Hero New Regular Italic.otf",
+				"Utility/Resources/Font/Hero New Regular.otf",
+				"Utility/Resources/Font/Hero New SemiBold Italic.otf",
+				"Utility/Resources/Font/Hero New SemiBold.otf",
+				"Utility/Resources/Font/Hero New Super Italic.otf",
+				"Utility/Resources/Font/Hero New Super.otf",
+				"Utility/Resources/Font/Hero New Thin Italic.otf",
+				"Utility/Resources/Font/Hero New Thin.otf",
+				"Utility/Resources/Font/Hero New UltraLight Italic.otf",
+				"Utility/Resources/Font/Hero New UltraLight.otf",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8449CF082D9D45A70052AA2F /* LoomApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8449CF2E2D9D45A90052AA2F /* Exceptions for "LoomApp" folder in "LoomApp" target */,
+				6B93BF912DC4093700F2A598 /* Exceptions for "LoomApp" folder in "Compile Sources" phase from "LoomApp" target */,
+				6BDD06782DA3B28D00ADFC09 /* Exceptions for "LoomApp" folder in "LoomAppTests" target */,
+				6B93BF7C2DC4088600F2A598 /* Exceptions for "LoomApp" folder in "LoomAppUITests" target */,
+			);
+			path = LoomApp;
+			sourceTree = "<group>";
+		};
+		8449CF1F2D9D45A90052AA2F /* LoomAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LoomAppTests;
+			sourceTree = "<group>";
+		};
+		8449CF292D9D45A90052AA2F /* LoomAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LoomAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8449CF032D9D45A70052AA2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD176D82DB21F5B00BAC1BD /* WebKit.framework in Frameworks */,
+				174FE7278A64B5CC14646BA1 /* Pods_LoomApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8449CF192D9D45A90052AA2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B9DD7A2EC7DAE967705A84 /* Pods_LoomAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8449CF232D9D45A90052AA2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E4FB4A3D6B761F8258094A /* Pods_LoomApp_LoomAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3834FD7C3EEA01F19A9075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BD176D72DB21F5B00BAC1BD /* WebKit.framework */,
+				52FE812FB924E226EAE7096D /* Pods_LoomApp.framework */,
+				8E63FBE6B43E82DDDD04ECDA /* Pods_LoomApp_LoomAppUITests.framework */,
+				314F1BAA9BFE7D815402BF6E /* Pods_LoomAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39BAE670C55ABED3BD066995 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BA57CCC43A4E9430F463FF9 /* Pods-LoomApp.debug.xcconfig */,
+				FD1676A89225B9CCC82373F7 /* Pods-LoomApp.release.xcconfig */,
+				F50CE65D77951A5152C4623A /* Pods-LoomApp-LoomAppUITests.debug.xcconfig */,
+				98AE900B226DF98E7CFE34F5 /* Pods-LoomApp-LoomAppUITests.release.xcconfig */,
+				F171F86222439745059B9121 /* Pods-LoomAppTests.debug.xcconfig */,
+				86466D49988C766AD4F5CA8C /* Pods-LoomAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B0176F32DF9A2FE0072F8BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B09E8C02E321DFA005655B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B0A8FC12E07ED010015F63E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B32FC422E376B7100C4623F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B4B7F832DDA512F00D61C59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B4F11252DF0178600551886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B4FDED62DE6F675006A0B4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B65D9022E0A829F00FF1179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B65E59C2E0BC71F00FF1179 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B69BBC32DEEFE6300A9B459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B7955262DFAFC14007E8C46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B7FBEE92E2E4F530092A524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B86E3D12E02F6CB00BFD866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B89633A2E059A43004D6A6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B93C9162DE22B0B007CC3A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B948E0E2DFCA93800A2EB71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B9F59E92E1153B800604F7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BAB922B2DE24A44006289FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BB30A762DE2563E00FFE14C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BB5F4E02DDA53E100A60CF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BBCA9252E33BDA500751F7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BDBF8712E0BD69600016DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BDC0FA82DE5EA9F0066F4A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BDF64CF2E004ADB0061C789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE6AF832DDB75DA00373085 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BF53E862DFAC3BC00C1639A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BFC8B682E0202F1006A0556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BFC9B222DFFEBA600416B53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8449CEFD2D9D45A70052AA2F = {
+			isa = PBXGroup;
+			children = (
+				8449CF082D9D45A70052AA2F /* LoomApp */,
+				8449CF1F2D9D45A90052AA2F /* LoomAppTests */,
+				8449CF292D9D45A90052AA2F /* LoomAppUITests */,
+				8449CF072D9D45A70052AA2F /* Products */,
+				39BAE670C55ABED3BD066995 /* Pods */,
+				0E3834FD7C3EEA01F19A9075 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		8449CF072D9D45A70052AA2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8449CF062D9D45A70052AA2F /* LoomApp.app */,
+				8449CF1C2D9D45A90052AA2F /* LoomAppTests.xctest */,
+				8449CF262D9D45A90052AA2F /* LoomAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8449CF052D9D45A70052AA2F /* LoomApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8449CF2F2D9D45A90052AA2F /* Build configuration list for PBXNativeTarget "LoomApp" */;
+			buildPhases = (
+				10F85A7A0EE9CB1147D88D64 /* [CP] Check Pods Manifest.lock */,
+				8449CF022D9D45A70052AA2F /* Sources */,
+				8449CF032D9D45A70052AA2F /* Frameworks */,
+				8449CF042D9D45A70052AA2F /* Resources */,
+				40E6BD28E535B1F6E00F06AE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8449CF082D9D45A70052AA2F /* LoomApp */,
+			);
+			name = LoomApp;
+			productName = LoomApp;
+			productReference = 8449CF062D9D45A70052AA2F /* LoomApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8449CF1B2D9D45A90052AA2F /* LoomAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8449CF342D9D45A90052AA2F /* Build configuration list for PBXNativeTarget "LoomAppTests" */;
+			buildPhases = (
+				A827CCFA0DE2B3E44AD3DF92 /* [CP] Check Pods Manifest.lock */,
+				8449CF182D9D45A90052AA2F /* Sources */,
+				8449CF192D9D45A90052AA2F /* Frameworks */,
+				8449CF1A2D9D45A90052AA2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8449CF1E2D9D45A90052AA2F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8449CF1F2D9D45A90052AA2F /* LoomAppTests */,
+			);
+			name = LoomAppTests;
+			productName = LoomAppTests;
+			productReference = 8449CF1C2D9D45A90052AA2F /* LoomAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8449CF252D9D45A90052AA2F /* LoomAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8449CF372D9D45A90052AA2F /* Build configuration list for PBXNativeTarget "LoomAppUITests" */;
+			buildPhases = (
+				23A739CB14C36885AB19185F /* [CP] Check Pods Manifest.lock */,
+				8449CF222D9D45A90052AA2F /* Sources */,
+				8449CF232D9D45A90052AA2F /* Frameworks */,
+				8449CF242D9D45A90052AA2F /* Resources */,
+				EED7FE0930E3FB8EEC4763CA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8449CF282D9D45A90052AA2F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8449CF292D9D45A90052AA2F /* LoomAppUITests */,
+			);
+			name = LoomAppUITests;
+			productName = LoomAppUITests;
+			productReference = 8449CF262D9D45A90052AA2F /* LoomAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8449CEFE2D9D45A70052AA2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					8449CF052D9D45A70052AA2F = {
+						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1630;
+					};
+					8449CF1B2D9D45A90052AA2F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8449CF052D9D45A70052AA2F;
+					};
+					8449CF252D9D45A90052AA2F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 8449CF052D9D45A70052AA2F;
+					};
+				};
+			};
+			buildConfigurationList = 8449CF012D9D45A70052AA2F /* Build configuration list for PBXProject "LoomApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8449CEFD2D9D45A70052AA2F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6BDBFF702E0D287900016DB1 /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8449CF072D9D45A70052AA2F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6B0176F32DF9A2FE0072F8BA /* Products */;
+					ProjectRef = 6B0176ED2DF9A2FE0072F8BA /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B948E0E2DFCA93800A2EB71 /* Products */;
+					ProjectRef = 6B948E082DFCA93800A2EB71 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6BE6AF832DDB75DA00373085 /* Products */;
+					ProjectRef = 6BE6AF7D2DDB75DA00373085 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6BDF64CF2E004ADB0061C789 /* Products */;
+					ProjectRef = 6BDF64CA2E004ADB0061C789 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B32FC422E376B7100C4623F /* Products */;
+					ProjectRef = 6B32FC3C2E376B7100C4623F /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6BB30A762DE2563E00FFE14C /* Products */;
+					ProjectRef = 6BB30A702DE2563E00FFE14C /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6BF53E862DFAC3BC00C1639A /* Products */;
+					ProjectRef = 6BF53E802DFAC3BC00C1639A /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B0A8FC12E07ED010015F63E /* Products */;
+					ProjectRef = 6B0A8FBC2E07ED010015F63E /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6BB5F4E02DDA53E100A60CF1 /* Products */;
+					ProjectRef = 6BB5F4DA2DDA53E100A60CF1 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6BDBF8712E0BD69600016DB1 /* Products */;
+					ProjectRef = 6BDBF86A2E0BD69600016DB1 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B89633A2E059A43004D6A6E /* Products */;
+					ProjectRef = 6B8963352E059A43004D6A6E /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6BDC0FA82DE5EA9F0066F4A2 /* Products */;
+					ProjectRef = 6BDC0FA22DE5EA9F0066F4A2 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B86E3D12E02F6CB00BFD866 /* Products */;
+					ProjectRef = 6B86E3CC2E02F6CB00BFD866 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B7FBEE92E2E4F530092A524 /* Products */;
+					ProjectRef = 6B7FBEE22E2E4F530092A524 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6BBCA9252E33BDA500751F7F /* Products */;
+					ProjectRef = 6BBCA91F2E33BDA500751F7F /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B4F11252DF0178600551886 /* Products */;
+					ProjectRef = 6B4F111F2DF0178600551886 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6BFC9B222DFFEBA600416B53 /* Products */;
+					ProjectRef = 6BFC9B1C2DFFEBA600416B53 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B4B7F832DDA512F00D61C59 /* Products */;
+					ProjectRef = 6B4B7F802DDA512E00D61C59 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B09E8C02E321DFA005655B9 /* Products */;
+					ProjectRef = 6B09E8BA2E321DFA005655B9 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B7955262DFAFC14007E8C46 /* Products */;
+					ProjectRef = 6B7955202DFAFC14007E8C46 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B65E59C2E0BC71F00FF1179 /* Products */;
+					ProjectRef = 6B65E5962E0BC71F00FF1179 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B4FDED62DE6F675006A0B4A /* Products */;
+					ProjectRef = 6B4FDED02DE6F675006A0B4A /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B65D9022E0A829F00FF1179 /* Products */;
+					ProjectRef = 6B65D8FD2E0A829F00FF1179 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B69BBC32DEEFE6300A9B459 /* Products */;
+					ProjectRef = 6B69BBBD2DEEFE6300A9B459 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6BAB922B2DE24A44006289FB /* Products */;
+					ProjectRef = 6BAB92252DE24A44006289FB /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6BFC8B682E0202F1006A0556 /* Products */;
+					ProjectRef = 6BFC8B632E0202F1006A0556 /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B9F59E92E1153B800604F7F /* Products */;
+					ProjectRef = 6B9F59E22E1153B800604F7F /* LoomApp.xcodeproj */;
+				},
+				{
+					ProductGroup = 6B93C9162DE22B0B007CC3A5 /* Products */;
+					ProjectRef = 6B93C9102DE22B0B007CC3A5 /* LoomApp.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8449CF052D9D45A70052AA2F /* LoomApp */,
+				8449CF1B2D9D45A90052AA2F /* LoomAppTests */,
+				8449CF252D9D45A90052AA2F /* LoomAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8449CF042D9D45A70052AA2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8449CF1A2D9D45A90052AA2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8449CF242D9D45A90052AA2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10F85A7A0EE9CB1147D88D64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoomApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23A739CB14C36885AB19185F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoomApp-LoomAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40E6BD28E535B1F6E00F06AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoomApp/Pods-LoomApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoomApp/Pods-LoomApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoomApp/Pods-LoomApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A827CCFA0DE2B3E44AD3DF92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LoomAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EED7FE0930E3FB8EEC4763CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoomApp-LoomAppUITests/Pods-LoomApp-LoomAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LoomApp-LoomAppUITests/Pods-LoomApp-LoomAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LoomApp-LoomAppUITests/Pods-LoomApp-LoomAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8449CF022D9D45A70052AA2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8449CF182D9D45A90052AA2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8449CF222D9D45A90052AA2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8449CF1E2D9D45A90052AA2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8449CF052D9D45A70052AA2F /* LoomApp */;
+			targetProxy = 8449CF1D2D9D45A90052AA2F /* PBXContainerItemProxy */;
+		};
+		8449CF282D9D45A90052AA2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8449CF052D9D45A70052AA2F /* LoomApp */;
+			targetProxy = 8449CF272D9D45A90052AA2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8449CF302D9D45A90052AA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA57CCC43A4E9430F463FF9 /* Pods-LoomApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LoomApp/LoomApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LH23W3QU9Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoomApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LOOM;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to allow photo capture.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loom.fashion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LoomApp/LoomApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8449CF312D9D45A90052AA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD1676A89225B9CCC82373F7 /* Pods-LoomApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LoomApp/LoomApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LH23W3QU9Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoomApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LOOM;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to allow photo capture.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loom.fashion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LoomApp/LoomApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8449CF322D9D45A90052AA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8449CF332D9D45A90052AA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8449CF352D9D45A90052AA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F171F86222439745059B9121 /* Pods-LoomAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetu.LoomAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoomApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoomApp";
+			};
+			name = Debug;
+		};
+		8449CF362D9D45A90052AA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86466D49988C766AD4F5CA8C /* Pods-LoomAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetu.LoomAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoomApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoomApp";
+			};
+			name = Release;
+		};
+		8449CF382D9D45A90052AA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F50CE65D77951A5152C4623A /* Pods-LoomApp-LoomAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetu.LoomAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoomApp;
+			};
+			name = Debug;
+		};
+		8449CF392D9D45A90052AA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98AE900B226DF98E7CFE34F5 /* Pods-LoomApp-LoomAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetu.LoomAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoomApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8449CF012D9D45A70052AA2F /* Build configuration list for PBXProject "LoomApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8449CF322D9D45A90052AA2F /* Debug */,
+				8449CF332D9D45A90052AA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8449CF2F2D9D45A90052AA2F /* Build configuration list for PBXNativeTarget "LoomApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8449CF302D9D45A90052AA2F /* Debug */,
+				8449CF312D9D45A90052AA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8449CF342D9D45A90052AA2F /* Build configuration list for PBXNativeTarget "LoomAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8449CF352D9D45A90052AA2F /* Debug */,
+				8449CF362D9D45A90052AA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8449CF372D9D45A90052AA2F /* Build configuration list for PBXNativeTarget "LoomAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8449CF382D9D45A90052AA2F /* Debug */,
+				8449CF392D9D45A90052AA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6BDBFF702E0D287900016DB1 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 8449CEFE2D9D45A70052AA2F /* Project object */;
+}
